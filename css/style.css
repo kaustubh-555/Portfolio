@@ -3,9 +3,6 @@
     margin: 0%;
     padding: 0%;
 }
-body{
-    height: fit-content;
-}
 #header{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -100,7 +97,6 @@ body{
 .footer .social{
     display: flex;
     justify-content: space-between;
-
 }
 .footer .social a{
     padding:20px;
@@ -150,6 +146,9 @@ body{
     border-radius: 10px;
     padding: 5px;
     background-color: lightgray;
+}
+.content-container textarea{
+    width: 95%;
 }
 .page{
     background-color: dimgrey;
